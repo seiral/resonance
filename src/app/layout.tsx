@@ -31,18 +31,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
             
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Item 1</NavigationMenuTrigger>
             <NavigationMenuContent>
-                <NavigationMenuLink>Link</NavigationMenuLink>
+                <NavigationMenuLink>Sign</NavigationMenuLink>
             </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-
+      
       <ThemeProvider
             attribute="class"
             defaultTheme="system"
